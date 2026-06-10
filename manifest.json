@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Job Tracker Scraper",
+  "version": "1.0",
+  "description": "Instantly scrape and sync job descriptions directly to your dashboard.",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://localhost:3000/*",
+    "https://*.linkedin.com/*",
+    "https://*.internshala.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
