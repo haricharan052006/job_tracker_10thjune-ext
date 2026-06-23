@@ -1,12 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { extensionJobs, addExtensionJob } from '@/lib/extensionStore';
-
 const corsHeaders = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Methods': 'GET, POST, OPTIONS, PUT, DELETE',
   'Access-Control-Allow-Headers': 'Content-Type, Authorization',
 };
-
 export async function OPTIONS() {
   return new NextResponse(null, {
     status: 204,
