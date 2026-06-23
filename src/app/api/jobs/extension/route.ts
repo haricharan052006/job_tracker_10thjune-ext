@@ -45,7 +45,8 @@ export async function POST(request: NextRequest) {
         headers: corsHeaders,
       }
     );
-  } catch (error) {
+  } 
+  catch (error) {
     console.error('Error parsing extension job data:', error);
     return NextResponse.json(
       {
