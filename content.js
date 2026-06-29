@@ -17,7 +17,6 @@ function scrapeJobDetails() {
 
     return { title, company };
 }
-
 // Send the details back to our popup window when asked
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request.action === "getJobDetails") {
