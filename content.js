@@ -8,7 +8,6 @@ function scrapeJobDetails() {
         
         title = h1Elements[0].innerText.trim();
     }
-
     // Look around the page title or common text layout for company names
     const possibleCompanies = document.querySelectorAll('.company, [class*="company"], h2');
     if (possibleCompanies.length > 0) {
