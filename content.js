@@ -12,7 +12,6 @@ function scrapeJobDetails() {
     if (possibleCompanies.length > 0) {
         company = possibleCompanies[0].innerText.trim();
     }
-
     return { title, company };
 }
 // Send the details back to our popup window when asked
