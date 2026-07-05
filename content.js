@@ -5,7 +5,6 @@ function scrapeJobDetails() {
     // Quick look for heading tags where job titles usually live
     const h1Elements = document.querySelectorAll('h1');
     if (h1Elements.length > 0) {
-        
         title = h1Elements[0].innerText.trim();
     }
     // Look around the page title or common text layout for company names
