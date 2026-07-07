@@ -13,6 +13,7 @@
     "https://*.linkedin.com/*",
     "https://*.internshala.com/*"
   ],
+  
   "action": {
     "default_popup": "popup.html"
   }
