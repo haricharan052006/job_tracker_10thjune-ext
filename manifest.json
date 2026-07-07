@@ -4,6 +4,7 @@
   "version": "1.0",
   "description": "Instantly scrape and sync job descriptions directly to your dashboard.",
   "permissions": [
+    
     "activeTab",
     "storage"
   ],
